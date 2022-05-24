@@ -44,7 +44,20 @@
     }
     .descripcion h1{
         font-size: 50px;
-        font-family: Arial, Helvetica, sans-serif;   
+        font-family: Arial, Helvetica, sans-serif;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
+        animation-duration: 1s;
+        animation-delay: 5s;
+        animation-direction: alternate;
+    }
+                @keyframes aparecer {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
     }
     .descripcion p{
         padding: 10px;
@@ -96,6 +109,29 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         padding-top: 15px;
     }
+    Section h2{
+        animation-name: animacion2;
+        animation-iteration-count: infinite;
+        animation-duration: 10s;
+        animation-delay: 1s;
+    }
+        @keyframes animacion2 {
+            0%{
+                color: black;
+            }
+            30%{
+                color:red
+            }
+            50%{
+                color:orangered
+            }
+            70%{
+                color: salmon;
+            }
+            100%{
+                color: #fff;
+            }
+        }
     footer{
         height: min-content;
         width: 100%;
@@ -360,6 +396,14 @@
     .SinEspecificar{
         height: 25px;
         width: 25px;
+    }
+    input{
+        transition: all 2s;
+    }
+    input:focus{
+        font-size: 80px;
+        border: 5px solid black;
+        color: #fff;
     }
     #HorariosTurnos h1{
         padding: 100px;
