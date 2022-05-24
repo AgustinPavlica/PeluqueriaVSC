@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Estilo.css">  
+</head>
+<body>
+    <div class="encabezado">
+        <header>
+            <a href="../index.html"> 
+            <img src="../imagenes/imagen logo.jpg"></a>
+            <ul>
+                <li><a href="./Servicios.html">Servicios</a></li>
+                <li><a href="./Precios.html">Precios</a></li>
+                <li><a href="./Turnos.html">Turnos</a></li>
+                <li><a href="./Productos.html">Productos</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul> 
+        </header>
+    </div>
+<div>
+    <section class="Section">
+        <div>
+            <center><h1>Formulario</h1></center>
+        </div>
+    <center>    
+        <fieldset>
+            <form action="enviar.php" method="post" enctype="text/plain">
+                <label for="Nombre">Nombre/s</label>
+                <input type="text" name="nombre" required> <br>
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" required> <br>
+                <label for="email">Email</label>
+                <input type="email" name="email" required> <br>
+                <label for="Teléfono">Teléfono</label>
+                <input type="tel" name="Teléfono" placeholder="Escribe tu número de telefono" required> <br>       
+                <label for="Fecha de nacimiento">Fecha de nacimiento</label>
+                <input type="date" name="Fecha de nacimiento" required> <br>
+                <div class="Sexo">
+                    <label for="Sexo"><strong>Sexo</strong></label> <br>
+                    Masculino<input type="radio" name="Sexo" class="Masculino"> <br>
+                    Femenino<input type="radio" name="Sexo" class="Femenino"> <br>
+                    Sin especificar<input type="radio" name="Sexo" class="SinEspecificar"> <br>
+                </div>    
+                <label for="Localidades">Localidad</label>
+                <select name="Localidades" required>
+                <option>Provincia de Buenos Aires</option>
+                <option>Capital</option></select> <br>
+                <label for="Comentario">Escribe tu comentario</label> <br>
+                <textarea name="Comentario" id="" cols="25" rows="5" placeholder="Deje aqui su comentario."></textarea> <br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Eliminar"> 
+            </form>
+        </fieldset>
+    </center>    
+    </section>
+</div>
+    <footer>
+        <div class="turnos">  
+            <h3>Turnos</h3>
+            <ul><a href="../HTML/Precios.html">Precios</a></ul>
+            <ul><a href="../HTML/Turnos.html">Turnos</a></ul>
+            <ul><a href="../HTML/Servicios.html">Servicios</a></ul>
+            <ul><a href="../HTML/Preguntas Frecuentes.html">Preguntas Frecuentes</a></ul>
+        </div>    
+        <div class="contacto">
+            <h3>Contacto</h3>
+            <p>Si tienes algun tipo de inquietud o duda, puedes contactarte con nosotoros, en nuestro apartado de <a href="/HTML/contacto.html">Contacto</a></p>
+        </div>
+     </footer>       
+</body>
+</html>

@@ -1,0 +1,835 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+/*Desktop*/
+@media screen and (min-width: 1024px){
+    .encabezado{
+        background-color: #323232;
+        height: max-content;
+        width: 100%;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    header ul li{
+        display: inline-block;
+        margin: 50px;
+        font-size: 30px;
+    }
+    header img{
+    width: 300px;
+    }
+    header a{
+        text-decoration: none;
+        border: 2px solid #fff;
+        padding: 2px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+    }
+    .Section{
+        height: min-content;
+        width: 100%;
+        background-color: #FA4EAB;
+        border-top: 5px solid black;
+    }
+    .descripcion{
+        text-align: center;
+        border: 3px solid black;  
+    }
+    .descripcion h1{
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;   
+    }
+    .descripcion p{
+        padding: 10px;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #TituloS{
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        text-decoration: underline;
+    }
+    .Cortes{
+    padding: 30px;
+    border-bottom: 2px solid black;
+    }
+    .Cortes h2{
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .Cortes p{
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 15px;
+    }
+    .Tratamiento-Capilar{
+        padding: 30px;
+        border-bottom: 2px solid black;
+    }
+    .Tratamiento-Capilar h2{
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .Tratamiento-Capilar p{
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 15px;
+    }
+    .Coloracion{
+        padding: 30px;
+        border-bottom: 2px solid black;
+    }
+    .Coloracion h2{
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .Coloracion p{
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 15px;
+    }
+    footer{
+        height: min-content;
+        width: 100%;
+        background-color: #FE83C6;
+        border-top: 2px solid black;
+    }
+    .turnos h3{
+        font-size: 30px;
+        padding: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .turnos ul{
+        margin: 10px;
+        padding-left: 20px;
+    }
+    .turnos ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .contacto h3{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .contacto p{
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .Section-Servicios{
+        height: min-content;
+        width: 100%;
+        background-color: #FA4EAB;
+        border-top: 5px solid black;
+    }
+    .Section-Servicios img{
+        display: flex;
+        flex-direction: column;
+        border: 5px solid black;
+        width: 650px;
+    }
+    #CortesM{
+        display: flex;
+        flex-direction: row;
+    }
+    #CortesM .Descripciones{
+        text-align: center;
+        margin-left: 25%;
+        margin-top: 200px;
+    }
+    #CortesM .Descripciones h2{
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #CortesM .Descripciones p{
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #CortesM .Descripciones a{
+        text-decoration: underline;
+        color: black;
+    }
+    #Coloracion{
+        display: flex;
+        flex-direction: row;
+    }
+    #Coloracion .Descripciones{
+        text-align: center;
+        margin-left: 22%;
+        margin-top: 200px;
+    }
+    #Coloracion .Descripciones h2{
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #Coloracion .Descripciones p{
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #Coloracion .Descripciones a{
+        text-decoration: underline;
+        color: black;
+    }
+    #Keratina{
+        display: flex;
+        flex-direction: row;
+    }
+    #Keratina .Descripciones{
+        text-align: center;
+        margin-left: 35%;
+    }
+    #Keratina .Descripciones h2{
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #Keratina .Descripciones p{
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #Keratina .Descripciones a{
+        text-decoration: underline;
+        color: black;
+    }
+    .UNICO{
+        font-size: 70px;
+        padding-bottom: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
+    }
+    #Alisado{
+        display: flex;
+        flex-direction: row;
+    }
+    #Alisado .Descripciones{
+        text-align: center;
+        margin-left: 35%;
+        margin-top: 200px;
+    }
+    #Alisado .Descripciones h2{
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #Alisado .Descripciones p{
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #Alisado .Descripciones a{
+        text-decoration: underline;
+        color: black;
+    }
+    #Botox{
+        display: flex;
+        flex-direction: row;
+    }
+    #Botox .Descripciones{
+        text-align: center;
+        margin-left: 35%;
+        margin-top: 200px;
+    }
+    #Botox .Descripciones h2{
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #Botox .Descripciones p{
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #Botox .Descripciones a{
+        text-decoration: underline;
+        color: black;
+    }
+    #Combo{
+        display: flex;
+        flex-direction: row;
+    }
+    #Combo .Descripciones{
+        text-align: center;
+        margin-left: 35%;
+        margin-top: 200px;
+    }
+    #Combo .Descripciones h2{
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #Combo .Descripciones p{
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #Combo .Descripciones a{
+        text-decoration: underline;
+        color: black;
+    }
+    #Resurrection{
+        display: flex;
+        flex-direction: row;
+    }
+    #Resurrection .Descripciones{
+        text-align: center;
+        margin-left: 35%;
+        margin-top: 200px;
+    }
+    #Resurrection .Descripciones h2{
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #Resurrection .Descripciones p{
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #Resurrection .Descripciones a{
+        text-decoration: underline;
+        color: black;
+    }
+    #ShampooNeutro{
+        display: flex;
+        flex-direction: row;
+    }
+    #ShampooNeutro .Descripciones{
+        text-align: center;
+        margin-left: 35%;
+        margin-top: 200px;
+    }
+    #ShampooNeutro .Descripciones h2{
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #ShampooNeutro .Descripciones p{
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #ShampooNeutro .Descripciones a{
+        text-decoration: underline;
+        color: black;
+    }
+    #AlisadoMarvelous{
+        display: flex;
+        flex-direction: row;
+    }
+    #AlisadoMarvelous .Descripciones{
+        text-align: center;
+        margin-left: 35%;
+        margin-top: 200px;
+    }
+    #AlisadoMarvelous .Descripciones h2{
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #AlisadoMarvelous .Descripciones p{
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #AlisadoMarvelous .Descripciones a{
+        text-decoration: underline;
+        color: black;
+    }
+    fieldset label{
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    fieldset input{
+        font-size: 30px;
+        margin: 35px;
+    }
+    fieldset .Sexo{
+        font-size: 25px;
+    }
+    fieldset select{
+        font-size: 35px;
+    }
+    fieldset textarea{
+        width: 400px;
+        height: 200px;
+    }
+    .Masculino{
+        height: 25px;
+        width: 25px;
+    }
+    .Femenino{
+        height: 25px;
+        width: 25px;
+    }
+    .SinEspecificar{
+        height: 25px;
+        width: 25px;
+    }
+    #HorariosTurnos h1{
+        padding: 100px;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    #HorariosTurnos p{
+        padding: 100px;
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+    #Atencion{
+        border: 3px solid black;
+    }
+    #Atencion h1{
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    #Atencion p{
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+}
+/*TABLETS*/
+@media screen and (min-width:768px) and (max-width:1023px){
+    .encabezado{
+        background-color: #323232;
+        height: min-content;
+        width: 100%;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        border: 6px solid black;
+    }
+    header ul li{
+        display: inline-block;
+        margin-top: 100px;
+        padding: 5px;
+        font-size: 25px;
+        float: right;
+    }
+    header ul li a{
+        text-decoration: none;
+        border: 2px solid #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+    }
+    header img{
+        width: 250px;
+        float: left;
+    }
+    .Section{
+        height: min-content;
+        width: 100%;
+        background-color: #FA4EAB;
+        border: 5px solid black;
+    }
+    .descripcion{
+        text-align: center;
+        border: 3px solid black;
+    }    
+    .descripcion h1{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;   
+    }
+    .descripcion p{
+            padding: 10px;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #TituloS{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        text-decoration: underline;
+    }
+    .Cortes{
+        padding: 30px;
+        border-bottom: 2px solid black;
+    }
+    .Cortes h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .Cortes p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 15px;
+    }
+    .Tratamiento-Capilar{
+        padding: 30px;
+        border-bottom: 2px solid black;
+    }
+    .Tratamiento-Capilar h2{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .Tratamiento-Capilar p{
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 15px;
+    }
+    .Coloracion{
+        padding: 30px;
+        border-bottom: 2px solid black;
+    }
+    .Coloracion h2{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .Coloracion p{
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 15px;
+    }
+    footer{
+        height: min-content;
+        width: 100%;
+        background-color: #FE83C6;
+        border: 5px solid black;
+    }
+    .turnos h3{
+        font-size: 20px;
+        padding: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .turnos ul{
+        margin: 10px;
+        padding-left: 20px;
+    }
+    .turnos ul a{
+        text-decoration: underline;
+        color: black;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .contacto h3{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .contacto p{
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .contacto a{
+        text-decoration: underline;
+    }
+    .Section-Servicios{
+        height: min-content;
+        width: 100%;
+        background-color: #FA4EAB;
+        border-top: 5px solid black;
+        display: grid;
+        justify-items: start;
+    }
+    .Section-Servicios img{
+        border: 5px solid black;
+        width: 250px;
+    }
+    .Descripciones{
+        float:right;
+        border: 3px solid black;
+    }
+    #CortesM .Descripciones{
+        text-align: center;
+    }
+    #CortesM .Descripciones h2{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #CortesM .Descripciones p{
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #CortesM .Descripciones a{
+        text-decoration: underline;
+        color: black;
+    }
+    #Coloracion .Descripciones{
+        text-align: center;
+    }
+    #Coloracion .Descripciones h2{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #Coloracion .Descripciones p{
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #Coloracion .Descripciones a{
+        text-decoration: underline;
+        color: black;
+    }
+    #Keratina{
+        display: flex;
+        flex-direction: row;
+    }
+    #Keratina .Descripciones{
+        text-align: center;
+        margin-left: 25%;
+    }
+    #Keratina .Descripciones h2{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #Keratina .Descripciones p{
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #Keratina .Descripciones a{
+        text-decoration: underline;
+        color: black;
+    }
+    .UNICO{
+        font-size: 30px;
+        padding-bottom: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
+    }
+    #Alisado .Descripciones{
+        text-align: center;
+        margin-left: 200px;
+    }
+    #Alisado .Descripciones h2{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #Alisado .Descripciones p{
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #Alisado .Descripciones a{
+        text-decoration: underline;
+        color: black;
+    }
+    #Botox .Descripciones{
+        text-align: center;
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+    #Botox .Descripciones h2{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #Botox .Descripciones p{
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #Botox .Descripciones a{
+        text-decoration: underline;
+        color: black;
+    }
+}
+/*Mobile*/
+@media screen and (min-width:320px) and (max-width:767px){
+    .encabezado{
+        background-color: #323232;
+        height: min-content;
+        width: 100%;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        border: 6px solid black;
+    }
+    header ul li{
+        display: inline-block;
+        margin-top: 5px;
+        padding: 3px;
+        font-size: 25px;
+    }
+    header ul li a{
+        text-decoration: none;
+        border: 2px solid #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+    }
+    header img{
+        width: 308px;
+    }
+    .Section{
+        height: min-content;
+        width: 100%;
+        background-color: #FA4EAB;
+        border: 5px solid black;
+    }
+    .descripcion{
+        text-align: center;
+        border: 5px solid black;
+    }    
+    .descripcion h1{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;   
+    }    
+    .descripcion p{
+        padding: 10px;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #TituloS{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        text-decoration: underline;
+    }
+    .Cortes{
+        padding: 30px;
+        border-bottom: 2px solid black;
+    }
+    .Cortes h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .Cortes p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 15px;
+    }
+    .Tratamiento-Capilar{
+        padding: 30px;
+        border-bottom: 2px solid black;
+    }
+    .Tratamiento-Capilar h2{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .Tratamiento-Capilar p{
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 15px;
+    }
+    .Coloracion{
+        padding: 30px;
+        border-bottom: 2px solid black;
+    }
+    .Coloracion h2{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .Coloracion p{
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 15px;
+    }
+    footer{
+        height: min-content;
+        width: 100%;
+        background-color: #FE83C6;
+        border: 5px solid black;
+    }
+    .turnos h3{
+        font-size: 20px;
+        padding: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .turnos ul{
+        margin: 10px;
+        padding-left: 20px;
+    }
+    .turnos ul a{
+        text-decoration: underline;
+        color: black;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .contacto h3{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .contacto p{
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .contacto a{
+        text-decoration: underline;
+    }
+    .Section-Servicios{
+        height: min-content;
+        width: 100%;
+        background-color: #FA4EAB;
+        border-top: 5px solid black;
+        display: grid;
+        justify-items: start;
+    }
+    .Section-Servicios img{
+        border: 5px solid black;
+        width: 250px;
+    }
+    .Descripciones{
+        border-bottom: 3px solid black;
+        border-right: 3px solid black;
+    }
+    #CortesM .Descripciones{
+        text-align: start;
+    }
+    #CortesM .Descripciones h2{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #CortesM .Descripciones p{
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #CortesM .Descripciones a{
+        text-decoration: underline;
+        color: black;
+    }
+    #Coloracion .Descripciones{
+        text-align: start;
+    }
+    #Coloracion .Descripciones h2{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #Coloracion .Descripciones p{
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #Coloracion .Descripciones a{
+        text-decoration: underline;
+        color: black;
+    }
+    #Keratina .Descripciones{
+        text-align: start;
+    }
+    #Keratina .Descripciones h2{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #Keratina .Descripciones p{
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #Keratina .Descripciones a{
+        text-decoration: underline;
+        color: black;
+    }
+    #Alisado .Descripciones{
+        text-align: start;
+    }
+    #Alisado .Descripciones h2{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #Alisado .Descripciones p{
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #Alisado .Descripciones a{
+        text-decoration: underline;
+        color: black
+    }
+    #Botox .Descripciones{
+        text-align: start;
+    }
+    #Botox .Descripciones h2{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #Botox .Descripciones p{
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #Botox .Descripciones a{
+        text-decoration: underline;
+        color: black
+    }
+}
