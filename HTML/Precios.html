@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,104 +9,134 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/Estilo.css">
 </head>
+
 <body>
-    <div class="encabezado">
-        <header>
-            <a href="../index.html">
-            <img src="../imagenes/imagen logo.jpg" alt="logo"/></a>
-            <ul>
-                <li><a href="./Servicios.html">Servicios</a></li>
-                <li><a href="./Precios.html">Precios</a></li>
-                <li><a href="./Turnos.html">Turnos</a></li>
-                <li><a href="./Productos.html">Productos</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>    
-        </header> 
-    </div>    
-    <div>
-        <section class="Section-Servicios">
-            <div id="CortesM">
-                <img src="../imagenes/Corte masculino.png" alt="Corte de pelo">
-                <div class="Descripciones">
-                    <h2>Cortes</h1>
-                    <p>Los precios suelen <strong> variar segun el largo del pelo</strong>, ante cualquier duda no dudes en <a href="./contacto.html"><strong>Contactarte</strong></a></p>
-                </div>    
+    <!--Navbar Inicia-->
+    <nav class="navbar navbar-expand-md bg-dark">
+        <a class="navbar-brand" href="/index.html">
+            <img src="/imagenes/imagen logo.jpg" alt="Logo" style="width:40px;">
+        </a>
+        <!-- Links Inicio -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/HTML/Servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/HTML/Precios.html">Precios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/HTML/Turnos.html">Turnos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/HTML/Productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/HTML/contacto.html">Contacto</a>
+            </li>
+        </ul>
+        <!--Links Fin-->
+    </nav>
+    <!--Navbar Fin-->
+    <section class="container-fluid">
+        <div class="row">
+            <!--Card Inicia-->
+            <div class="card col-md-3" style="width:400px">
+                <img class="card-img-top" src="/imagenes/Corte masculino.png" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Cortes</h4>
+                    <p class="card-text">Diferentes Tipos de Cortes de Pelo</p>
+                    <a href="/HTML/contacto.html" class="btn btn-info">Consultar Precio</a>
+                </div>
             </div>
-            <div id="Coloracion">
-                <img src="../imagenes/color.png" alt="Coloracion">
-                <div class="Descripciones">
-                    <h2>Coloracion</h1>
-                    <p>La coloracion suele rondar entre los $2000 <strong>ARG</strong> (pelo corto) y $3000 pesos <strong>ARG</strong> (pelo largo)</p>
-                </div>    
+            <div class="card col-md-3" style="width:400px">
+                <img class="card-img-top" src="/imagenes/color.png" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Coloracion</h4>
+                    <p class="card-text">Muchos tipos de colores para que quede satistecho/a con su pelo</p>
+                    <a href="/HTML/contacto.html" class="btn btn-info">Consultar Precio</a>
+                </div>
             </div>
-            <div id="Keratina">
-                <img src="../imagenes/keratina editada.png" alt="Keratina">
-                <div class="Descripciones">
-                    <h2 class="UNICO">Tratamiento Capilar</h1>
-                    <h2>Keratina</h2>
-                    <p>La Keratina es un tratamiento capilar que esta entre $3000 <strong>ARG</strong> (pelo corto) y $3500 <strong>ARG</strong> (pelo largo)</p>
-                </div>    
+            <div class="card col-md-3" style="width:400px">
+                <img class="card-img-top" src="/imagenes/keratina editada.png" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Keratina</h4>
+                    <p class="card-text">Nutre y sella la cutícula capilar</p>
+                    <a href="/HTML/contacto.html" class="btn btn-info">Consultar Precio</a>
+                </div>
             </div>
-            <div id="Alisado">    
-                <img src="../imagenes/Alisado.png" alt="Alisado">
-                <div class="Descripciones">
-                    <h2>Alisado</h2>
-                    <p>Otro tratamiento capilar es el <strong>Alisado</strong> su presio suele ser de $2000 <Strong>ARG</Strong> (pelo corto) y $2500 <strong>ARG</strong> (pelo largo)</p>
-                </div>    
+            <div class="card col-md-3" style="width:400px">
+                <img class="card-img-top" src="/imagenes/Alisado.png  " alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Alisado</h4>
+                    <p class="card-text">Reconstruye Las Hebras Capilares</p>
+                    <a href="/HTML/contacto.html" class="btn btn-info">Consultar Precio</a>
+                </div>
             </div>
-            <div id="Botox">    
-                <img src="../imagenes/botox.png" alt="Botox Capilar">
-                <div class="Descripciones">
-                    <h2>Botox Capilar</h2>
-                    <p>El botox es otro tratamiento capilar, su precio suele ser $4000 <Strong>ARG</Strong> (pelo corto y $4500 <strong>ARG</strong> (pelo largo)</p>
-                </div>    
-            </div>  
-            <div id="Combo">
-                <img src="../imagenes/Productos Gia.png" alt="Combo">
-                <div class="Descripciones">
-                    <h2>Combo (shampoo, Baño de Crema y Acondicionador)</h2>
-                    <p>Combo en Promo por $1300 <strong>ARG</strong></p>
-                </div>    
+            <div class="card col-md-3 botox" style="width:400px">
+                <img class="card-img-top" src="/imagenes/botox.png" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Botox Capilar</h4>
+                    <p class="card-text">El Botox: Alisa, Nutre y Mejora Tu Cabello</p>
+                    <a href="/HTML/contacto.html" class="btn btn-info">Consultar Precio</a>
+                </div>
             </div>
-            <div id="Resurrection">
-                <img src="../imagenes/Productos Gia 2.png" alt="Producto">
-                <div class="Descripciones">
-                    <h2>Resurrection</h2>
-                    <p>El Precio de este producto se encuentra a $2000 <strong>ARG</strong></p>
-                </div>    
+            <div class="card col-md-5 botox">
+                <img class="card-img-top" src="/imagenes/Productos Gia.png" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Combo (shampoo, Baño de Crema y Acondicionador)</h4>
+                    <p class="card-text">Combo en Promo por $1300 <b> ARG</b></p>
+                    <a href="/HTML/contacto.html" class="btn btn-info">Consultar Precio</a>
+                    <a href="/HTML/Productos.html" class="btn btn-success">Ver Producto</a>
+                </div>
+            </div>    
+            <div class="card col-md-4 botox">
+                <img class="card-img-top" src="/imagenes/Productos Gia 2.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Resurrection</h4>
+                        <p class="card-text">El Precio de este producto se encuentra a $2000 <b> ARG</b></p>
+                        <a href="/HTML/contacto.html" class="btn btn-info">Consultar Precio</a>
+                        <a href="/HTML/Productos.html" class="btn btn-success">Ver Producto</a>
+                    </div>
             </div>
-            <div id="ShampooNeutro">
-                <img src="../imagenes/Producto Gia 3.png" alt="Producto">
-                <div class="Descripciones">
-                    <h2>Shampoo Neutro</h2>
-                    <p>El producto shampoo neutro se encuentra a $400 <strong>ARG</strong></p>
-                </div>    
+            <div class="card col-md-4 botox">
+                <img class="card-img-top" src="/imagenes/Producto Gia 3.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Shampoo Neutro</h4>
+                        <p class="card-text">El producto shampoo neutro se encuentra a $400<b> ARG</b></p>
+                        <a href="/HTML/contacto.html" class="btn btn-info">Consultar Precio</a>
+                        <a href="/HTML/Productos.html" class="btn btn-success">Ver Producto</a>
+                    </div>
             </div>
-            <div id="AlisadoMarvelous">
-                <img src="../imagenes/Productos Gia 4.png" alt="Producto">
-                <div class="Descripciones">
-                    <h2>Alisado Marvelous</h2>
-                    <p>El Alisado Marvelous se encuentra al precio de $700 <strong>ARG</strong></p>
-                </div>    
-            </div>
-        </section>
-    </div>
-    <div>
-<footer>
-        <div class="turnos">  
-            <h3>Turnos</h3>
-            <ul><a href="../HTML/Precios.html">Precios</a></ul>
-            <ul><a href="../HTML/Turnos.html">Turnos</a></ul>
-            <ul><a href="../HTML/Servicios.html">Servicios</a></ul>
-            <ul><a href="../HTML/Preguntas Frecuentes.html">Preguntas Frecuentes</a></ul>
-        </div>    
-        <div class="contacto">
-            <h3>Contacto</h3>
-            <p>Si tienes algun tipo de inquietud o duda, puedes contactarte con nosotoros, en nuestro apartado de <a href="/HTML/contacto.html">Contacto</a></p>
+            <div class="card col-md-4 botox">
+                <img class="card-img-top" src="/imagenes/Productos Gia 4.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Alisado Marvelous</h4>
+                        <p class="card-text">El Alisado Marvelous se encuentra al precio de $700<b> ARG</b></p>
+                        <a href="/HTML/contacto.html" class="btn btn-info">Consultar Precio</a>
+                        <a href="/HTML/Productos.html" class="btn btn-success">Ver Producto</a>
+                    </div>
+            </div>                         
         </div>
-     </footer>
-    </div>
+        <!--Card Fin-->
+    </section>
+    <!--footer inicia-->
+    <footer class="footer">
+        <p>Todos los derechos reservados por copyright</p>
+        <div class="redes">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="/HTML/Preguntas Frecuentes.html" class="PreguntasFrecuentes">Preguntas Frecuentes</a>
+    </footer>
+    <!--footer Fin-->
 </body>
+
 </html>

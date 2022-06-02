@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,72 +9,106 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/Estilo.css">
 </head>
+
 <body>
-    <div class="encabezado">
-        <header>
-            <a href="../index.html"> 
-                <img src="../imagenes/imagen logo.jpg"></a>
-                <ul>
-                    <li><a href="Servicios.html">Servicios</a></li>
-                    <li><a href="Precios.html">Precios</a></li>
-                    <li><a href="Turnos.html">Turnos</a></li>
-                    <li><a href="Productos.html">Productos</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-        </header>
-    </div>
-    <div>
-        <section class="Section-Servicios">
-            <h3>Productos Capilares de Exelencia! Todo lo Mejor para tu Cabello lo vas a encontrar aqui</h3> <br>
-            <div id="Combo">
-                <img src="../imagenes/Productos Gia.png" alt="Produtos Combos">
-                <div class="Descripciones">
-                    <h2>Combo (Shampoo, Baño de Crema y Acondicionador)</h2>
-                    <p>Es uno de los tratamientos mas efectivos para el cabello considerado muerto o elástico.. no contiene alcoholes ni otros productos químicos que puedan agravar la sensibilidad de la piel y el cabello. funciona increíblemente bien reparando el cabello dañado, bien por el calor o bien por cualquier otro procedimiento, el cabello seco o cualquier otro problema relacionado con el pelo.además, de manera natural, manteniendo un pelo radiante con un cuero cabelludo sano al utilizarlo de manera habitual en el cuidado de nuestro pelo.
-                    Este producto funciona bien reconstituyendo el pelo dañado porque su estructura molecular, al contrario que otros aceites vegetales o cremas hidratantes que se quedan en la superficie del cabello, hace posible que penetre el tallo del cabello más allá de la cutícula, reparando y previniendo el daño desde el interior hacia fuera.contiene además ácido Lactico y ceramidas ayudan a reestructurar el pelo, incrementar su resistencia previniendo la pérdida de proteínas y, por encima de todo, dotándolo de un espectacular brillo natural y soltura que lo hacen más fácil de manejar con un importante descenso de los enredos, las roturas y la debilidad de las puntas. Hasta puede ser usado para la caída y engrosar la fibra.</p>
-                </div>    
-            </div>
-            <div id="Resurrection">
-                <img src="../imagenes/Productos Gia 2.png" alt="Producto 2">
-                <div class="Descripciones">
-                    <h2>Resurrection</h2>
-                    <p>Es uno de los tratamientos mas efectivos para el cabello considerado muerto o elástico.. es 100% natural, no tiene siliconas, alcoholes ni otros productos químicos que puedan agravar la sensibilidad de la piel y el cabello. funciona increíblemente bien reparando el cabello dañado, bien por el calor o bien por cualquier otro procedimiento, el cabello seco o cualquier otro problema relacionado con el pelo.</p> <br>
-                    <p>Además, de manera natural, un agente fungicida, lo que lo convierte de inmediato en un tratamiento anticaspa ideal, tanto para eliminarla como para prevenirla, manteniendo un pelo radiante con un cuero cabelludo sano al utilizarlo de manera habitual en el cuidado de nuestro pelo, de una a cuatro veces al mes.</p> <br>    
-                    <p> Este producto funciona bien reconstituyendo el pelo dañado porque su estructura molecular, al contrario que otros aceites vegetales o cremas hidratantes que se quedan en la superficie del cabello, hace posible que penetre el tallo del cabello más allá de la cutícula, reparando y previniendo el daño desde el interior hacia fuera.contiene además ácido Laúrico y el ácido Cáprico que ayudan a reestructurar el pelo, incrementar su resistencia previniendo la pérdida de proteínas y, por encima de todo, dotándolo de un espectacular brillo natural y soltura que lo hacen más fácil de manejar con un importante descenso de los enredos, las roturas y la debilidad de las puntas. Hasta puede ser usado para la caída y engrosar la fibra.</p> <br>
-                </div>    
-            </div>
-            <div id="ShampooNeutro">
-                <img src="../imagenes/Producto Gia 3.png" alt="Shampoo Neutro">
-                <div class="Descripciones">
-                    <h2>Shampoo Neutro</h2>
-                    <p>Uno de los beneficios del shampoo neutro es que mantiene y alarga la coloración, le aporta brillo y vitalidad al pelo. El cabello teñido tiene una superficie mucho más porosa que el virgen, por lo que las cutículas están abiertas al recibir la tintura. Tmb es apoyo antes de realizar un tratamiento capilar ya que expulsa todos los residuos del cabello dejándolo listo para el tratamiento!</p> <br>
-                </div>    
-            </div>
-            <div id="AlisadoMarvelous">
-                <img src="../imagenes/Productos Gia 4.png" alt="Producto 4">
-                <div class="Descripciones">
-                    <h2>Alisado Marvelous (Sin Formol)</h2>
-                    <p>Tratamiento Progresivo para efecto lacio en tu cabello.</p>
+    <!--Navbar Inicia-->
+    <nav class="navbar navbar-expand-md bg-dark">
+        <a class="navbar-brand" href="/index.html">
+            <img src="/imagenes/imagen logo.jpg" alt="Logo" style="width:40px;">
+        </a>
+        <!-- Links Inicio -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/HTML/Servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/HTML/Precios.html">Precios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/HTML/Turnos.html">Turnos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/HTML/Productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/HTML/contacto.html">Contacto</a>
+            </li>
+        </ul>
+        <!--Links Fin-->
+    </nav>
+    <!--Navbar Fin-->
+    <!--card Inicio-->
+    <section>
+        <div class="row">
+            <div class="card col-md-3 botox">
+                <img class="card-img-top" src="/imagenes/Productos Gia.png" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Combo (shampoo, Baño de Crema y Acondicionador)</h4>
+                    <p class="card-text">Es uno de los tratamientos mas efectivos para el cabello,no contiene alcoholes
+                        ni otros productos químicos que puedan agravar la sensibilidad de la piel y el cabello. Funciona
+                        bien reparando el cabello dañado.</p>
+                    <a href="/HTML/Precios.html" class="btn btn-info">Consultar Precio</a>
                 </div>
-            </div>  
-        </section>
-    </div>
-    <div>
-        <footer>
-            <div class="turnos">  
-                <h3>Turnos</h3>
-                <ul><a href="../HTML/Precios.html">Precios</a></ul>
-                <ul><a href="../HTML/Turnos.html">Turnos</a></ul>
-                <ul><a href="../HTML/Servicios.html">Servicios</a></ul>
-                <ul><a href="../HTML/Preguntas Frecuentes.html">Preguntas Frecuentes</a></ul>
-            </div>    
-            <div class="contacto">
-                <h3>Contacto</h3>
-                <p>Si tienes algun tipo de inquietud o duda, puedes contactarte con nosotoros, en nuestro apartado de <a href="/HTML/contacto.html">Contacto</a></p>
             </div>
-         </footer>
-    </div>  
+            <div class="card col-md-3 botox">
+                <img class="card-img-top" src="/imagenes/Productos Gia 2.png" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Resurrection</h4>
+                    <p class="card-text">es 100% natural, no tiene siliconas, alcoholes ni otros productos químicos que
+                        puedan agravar la sensibilidad de la piel y el cabello. funciona increíblemente bien reparando
+                        el cabello dañado. Tambien es un tratamiento anticaspa ideal,tanto para eliminarla como para
+                        prevenirla.</p>
+                    <a href="/HTML/Precios.html" class="btn btn-info">Consultar Precio</a>
+                </div>
+            </div>
+            <div class="card col-md-3 botox">
+                <img class="card-img-top" src="/imagenes/Producto Gia 3.png" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Shampoo Neutro</h4>
+                    <p class="card-text">Uno de los beneficios del shampoo neutro es que mantiene y alarga la
+                        coloración, le aporta brillo y vitalidad al pelo.</p>
+                    <a href="/HTML/Precios.html" class="btn btn-info">Consultar Precio</a>
+                </div>
+            </div>
+            <div class="card col-md-3 botox">
+                <img class="card-img-top" src="/imagenes/Productos Gia 4.png" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Alisado Marvelous</h4>
+                    <p class="card-text">Tratamiento Progresivo para efecto lacio en tu cabello.</p>
+                    <a href="/HTML/Precios.html" class="btn btn-info">Consultar Precio</a>
+                </div>
+            </div>
+        </div>
+        <!--card Fin-->
+    </section>
+    <!--footer inicia-->
+    <footer class="footer">
+        <p>Todos los derechos reservados por copyright</p>
+        <div class="redes">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="/HTML/Preguntas Frecuentes.html" class="PreguntasFrecuentes">Preguntas Frecuentes</a>
+    </footer>
+    <!--footer Fin-->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
