@@ -70,6 +70,16 @@ input:focus{
     animation-delay: 5s;
     animation-direction: alternate;
 }
+.dleft{
+    border-top: 3px solid black;
+}
+.dright{
+    border-top: 3px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.dleft img{
+    width: 500px;
+}
 @keyframes aparecer{
     0%{
         opacity: 0;

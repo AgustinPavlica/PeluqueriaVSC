@@ -1,90 +1,101 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/Estilo.css">  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../Estilo.css">
 </head>
+
 <body>
-<!--Navbar Inicia-->
-<nav class="navbar navbar-expand-md bg-dark">
-    <a class="navbar-brand" href="/index.html">
-      <img src="/imagenes/imagen logo.jpg" alt="Logo" style="width:40px;">
-    </a>
-    <!-- Links Inicio -->
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="/HTML/Servicios.html">Servicios</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/HTML/Precios.html">Precios</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/HTML/Turnos.html">Turnos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/HTML/Productos.html">Productos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/HTML/contacto.html">Contacto</a>
-      </li>
-    </ul>
-    <!--Links Fin-->
-  </nav>
-  <!--Navbar Fin-->
-    <section class="Section">
-        <div>
-            <center><h1>Formulario</h1></center>
-        </div>
-    <center>    
-        <fieldset>
-            <form action="enviar.php" method="post" enctype="text/plain">
-                <label for="Nombre">Nombre/s</label>
-                <input type="text" placeholder="Escriba su Nombre" name="nombre" required> <br>
-                <label for="apellido">Apellido</label>
-                <input type="text" placeholder="Escriba su Apellido" name="apellido" required> <br>
-                <label for="email">Email</label>
-                <input type="email" placeholder="Inserte su Email" name="email" required> <br>
-                <label for="Teléfono">Teléfono</label>
-                <input type="tel" name="Teléfono" placeholder="Escribe tu número de telefono" required> <br>       
-                <label for="Fecha de nacimiento">Fecha de nacimiento</label>
-                <input type="date" name="Fecha de nacimiento" required> <br>
-                <div class="Sexo">
-                    <label for="Sexo"><strong>Sexo</strong></label> <br>
-                    Masculino<input type="radio" name="Sexo" class="Masculino"> <br>
-                    Femenino<input type="radio" name="Sexo" class="Femenino"> <br>
-                    Sin especificar<input type="radio" name="Sexo" class="SinEspecificar"> <br>
-                </div>    
-                <label for="Localidades">Localidad</label>
-                <select name="Localidades" required>
-                <option>Provincia de Buenos Aires</option>
-                <option>Capital</option></select> <br>
-                <label for="Comentario">Escribe tu comentario</label> <br>
-                <textarea name="Comentario" id="" cols="25" rows="5" placeholder="Deje aqui su comentario."></textarea> <br>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Eliminar"> 
-            </form>
-        </fieldset>
-    </center>    
-    </section>
-</div>
-    <!--footer inicia-->
-    <footer class="footer">
-        <p>Todos los derechos reservados por copyright</p>
-        <div class="redes">
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-        </div>
-        <a href="/HTML/Preguntas Frecuentes.html" class="PreguntasFrecuentes">Preguntas Frecuentes</a>
-    </footer>
-    <!--footer Fin-->
+  <header>
+    <!--Navbar Inicia-->
+    <nav class="navbar navbar-expand-md bg-dark">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../imagenes/imagen logo.jpg" alt="Logo" style="width:40px;">
+      </a>
+      <!-- Links Inicio -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="Servicios.html">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Precios.html">Precios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Turnos.html">Turnos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+      </ul>
+      <!--Links Fin-->
+    </nav>
+    <!--Navbar Fin-->
+  </header>
+  <section class="Section">
+    <div>
+      <center>
+        <h1>Formulario</h1>
+      </center>
+    </div>
+    <center>
+      <fieldset>
+        <form action="enviar.php" method="post" enctype="text/plain">
+          <label for="Nombre">Nombre/s</label>
+          <input type="text" placeholder="Escriba su Nombre" name="nombre" required> <br>
+          <label for="apellido">Apellido</label>
+          <input type="text" placeholder="Escriba su Apellido" name="apellido" required> <br>
+          <label for="email">Email</label>
+          <input type="email" placeholder="Inserte su Email" name="email" required> <br>
+          <label for="Teléfono">Teléfono</label>
+          <input type="tel" name="Teléfono" placeholder="Escribe tu número de telefono" required> <br>
+          <label for="Fecha de nacimiento">Fecha de nacimiento</label>
+          <input type="date" name="Fecha de nacimiento" required> <br>
+          <div class="Sexo">
+            <label for="Sexo"><strong>Sexo</strong></label> <br>
+            Masculino<input type="radio" name="Sexo" class="Masculino"> <br>
+            Femenino<input type="radio" name="Sexo" class="Femenino"> <br>
+            Sin especificar<input type="radio" name="Sexo" class="SinEspecificar"> <br>
+          </div>
+          <label for="Localidades">Localidad</label>
+          <select name="Localidades" required>
+            <option>Provincia de Buenos Aires</option>
+            <option>Capital</option>
+          </select> <br>
+          <label for="Comentario">Escribe tu comentario</label> <br>
+          <textarea name="Comentario" id="" cols="25" rows="5" placeholder="Deje aqui su comentario."></textarea> <br>
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Eliminar">
+        </form>
+      </fieldset>
+    </center>
+  </section>
+  </div>
+  <!--footer inicia-->
+  <footer class="footer">
+    <p>Todos los derechos reservados por copyright</p>
+    <div class="redes">
+      <a href=""><i class="fa-brands fa-facebook"></i></a>
+      <a href=""><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <a href="Preguntas Frecuentes.html" class="PreguntasFrecuentes">Preguntas Frecuentes</a>
+  </footer>
+  <!--footer Fin-->
 </body>
+
 </html>
