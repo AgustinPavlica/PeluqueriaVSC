@@ -124,4 +124,71 @@ input:focus {
     text-decoration: underline;
   }
 }
+
+.SecadorDePelo, .MaquinaCortarPelo, .PlanchaDePelo, .TijerasDePelo {
+  width: 100%;
+  background-color: #cc4e8f;
+  border-bottom: 5px solid black;
+}
+
+.SecadorDePelo p, .MaquinaCortarPelo p, .PlanchaDePelo p, .TijerasDePelo p {
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.SecadorDePelo h1, .MaquinaCortarPelo h1, .PlanchaDePelo h1, .TijerasDePelo h1 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+}
+
+.SecadorDePelo img, .MaquinaCortarPelo img, .PlanchaDePelo img, .TijerasDePelo img {
+  width: 200px;
+}
+
+.MaquinaCortarPelo img {
+  border: 3px solid black;
+  width: 250px;
+}
+
+.MaquinaCortarPelo h1 {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.MaquinaCortarPelo p {
+  color: black;
+  font-size: 30px;
+  font-family: serif;
+}
+
+.PlanchaDePelo h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.PlanchaDePelo img {
+  border: 3px dotted black;
+}
+
+.PlanchaDePelo p {
+  color: black;
+  font-size: 35px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.TijerasDePelo h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 66px;
+}
+
+.TijerasDePelo img {
+  width: 260px;
+  border: 3px solid gray;
+}
+
+.TijerasDePelo p {
+  color: black;
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 /*# sourceMappingURL=estilos.css.map */
