@@ -46,22 +46,9 @@ section{
         font-size: 25px;
     }
 }
-.footer{
-    min-height: 200px;
-    width: 100%;
-    background-color: #413F42;
-    text-align: center;
-    border-top: 3px solid $color1;
-    & p{
-        font-size: 26px;
-        color: $color3;
-        text-transform: capitalize;
-    }
-    & i{
-        font-size: 60px;
-        color: $color3;
-    }
-}
+//imports i partials
+@import "_footer.scss";
+
 .PreguntasFrecuentes{
     font-size: 25px;
     padding: 5px;
