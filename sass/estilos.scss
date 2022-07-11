@@ -38,7 +38,7 @@ section{
     background-position: center;
 }
 .Tituloservicios{
-   @include Titulodeservicios;
+    @include Titulodeservicios;
 }
 .Servicios{
     background-image: url(/imagenes/fondo.jpg);
@@ -64,16 +64,16 @@ main{
     border: 3px solid black;
     width: 50%;
     margin-left: 26%;
-        form{   
+    form{   
             font-size: 25px;
             color: black;
         }
-}
-input{
-    background-color: pink;
-    border-radius: 20px;
-}
-input::placeholder{
+    }
+    input{
+        background-color: pink;
+        border-radius: 20px;
+    }
+    input::placeholder{
     text-align: center;
 }
 .PreguntasFrecuentes{
@@ -104,9 +104,9 @@ input::placeholder{
     background-position: center;
     border-bottom: 5px solid black;
     p{
-    margin: 30px;
-    font-size: 24px;
-    font-family: serif;
+        margin: 30px;
+        font-size: 24px;
+        font-family: serif;
     }
     h1{
         margin: 20px;
@@ -168,4 +168,93 @@ input::placeholder{
 .cartas{
     margin: 30px;
     height: min-content;
+}
+.texto{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10%;
+}
+@media screen and (min-width: 320px) and (max-width: 489px) {
+    .carousel-item{
+        img{
+            width: 400px;
+            height: 300px;
+            margin-left: 1%;
+        }
+    }
+    .formu{
+        font-size: 31px;
+    }
+    input{
+        font-size: 13px;
+    }
+    select{
+        font-size: 11px;
+    }
+    textarea{
+        font-size: 10px;
+    }
+    section{
+        background-size: cover;
+    }
+    .btn{
+        margin-top: 3px;
+    }
+}
+@media screen and (min-width: 490px) and (max-width: 767px) {
+    .carousel-item{
+        img{
+            width: 400px;
+            height: 300px;
+            margin-left: 10%;
+        }
+    }
+    .formu{
+        font-size: 45px;
+    }
+    input{
+        font-size: 20px;
+    }
+    select{
+        font-size: 18px;
+    }
+    textarea{
+        font-size: 18px;
+    }
+    section{
+        background-size: cover;
+    }
+    .card{
+        margin-left: 45px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1199){
+    .carousel-item{
+        img{
+            width: 400px;
+            height: 300px;
+            margin-left: 23%;
+        }
+    }
+    .formu{
+        font-size: 60px;
+    }
+    input{
+        font-size: 30px;
+    }
+    label{
+        font-size: 40px;
+    }
+    select{
+        font-size: 30px;
+    }
+    textarea{
+        font-size: 20px;
+    }
+    section{
+        background-size: cover;
+    }
+    .btn{
+        padding: 3px;
+        margin-top: 3px;
+    }
 }
